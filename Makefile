@@ -7,6 +7,9 @@ install:
 install-deps:
 	sudo npm ci --legacy-peer-deps
 
+gendiff:
+	node bin/gendiff.js -h
+
 test:
 	npm test
 
