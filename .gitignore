@@ -1,5 +1,5 @@
 # Игнорируем файл в любой директории проекта
-access.log
+*.log
 .DS_Store
 .idea
 .vscode

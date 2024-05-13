@@ -1,0 +1,30 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "The Difference Calculator Project",
+  "type": "module",
+  "scripts": {
+    "test": "npx jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MamBoota/frontend-project-46.git"
+  },
+  "author": "Denis Kostyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MamBoota/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/MamBoota/frontend-project-46#readme",
+  "devDependencies": {
+    "commander": "^12.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "globals": "^15.2.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
