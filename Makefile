@@ -4,17 +4,20 @@ install:
 # run:
 # 	bin/nodejs-package.js 10
 
-install-deps:
-	sudo npm ci --legacy-peer-deps
+# install-deps:
+# 	sudo npm ci --legacy-peer-deps
 
-gendiff:
+gendiff-h:
 	node bin/gendiff.js -h
+
+gendiff-reading-file:
+	node bin/gendiff.js __fixtures__/json/file1.json __fixtures__/json/file2.json
 
 test:
 	npm test
 
 test-coverage:
-	npm test -- --coverage --coverageProvider=v8
+	npm test --coverage
 
 link:
 	sudo npm link
@@ -22,5 +25,5 @@ link:
 lint:
 	sudo npx eslint .
 
-publish:
-	sudo npm publish
+lint-fix:
+	sudo npx eslint . --fix
