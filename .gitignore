@@ -3,6 +3,7 @@
 .DS_Store
 .idea
 .vscode
+demo.cast
 
 # Игнорируем директорию в любой директории проекта
 node_modules/

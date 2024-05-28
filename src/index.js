@@ -1,5 +1,5 @@
 import parse from "./parse.js";
-import _ from 'lodash';
+import _ from "lodash";
 
 const getResult = (sign, key, value) => `  ${sign} ${key}: ${value}`;
 
@@ -24,6 +24,7 @@ const genDiff = (filepath1, filepath2) => {
 
   const allDateDiff = keys2.reduce((acc, key) => {
     if (!keys1.includes(key)) acc.push(getResult('+', key, data2[key],));
+
     return acc;
   }, date1Diff);
 

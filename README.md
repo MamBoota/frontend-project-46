@@ -2,6 +2,12 @@
 
 [![Actions Status](https://github.com/MamBoota/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MamBoota/frontend-project-46/actions)
 
+[![MamBoota-Check Status](https://github.com/MamBoota/frontend-project-46/actions/workflows/mamboota-check.yml/badge.svg)](https://github.com/MamBoota/frontend-project-46/actions)
+
+[![Maintainability](https://api.codeclimate.com/v1/badges/6e34909e009c5750eb46/maintainability)](https://codeclimate.com/github/MamBoota/frontend-project-46/maintainability)
+
+[![Test Coverage](https://api.codeclimate.com/v1/badges/6e34909e009c5750eb46/test_coverage)](https://codeclimate.com/github/MamBoota/frontend-project-46/test_coverage)
+
 ### Demonstration.
 
 ### Comparison of flat files (JSON).
