@@ -10,7 +10,8 @@
   },
   "bin": {
     "gendiff-h": "bin/gendiff.js",
-    "gendiff-reading-file": "bin/gendiff.js"
+    "gendiff-json": "bin/gendiff.js",
+    "gendiff-yml": "bin/gendiff.js"
   },
   "repository": {
     "type": "git",
