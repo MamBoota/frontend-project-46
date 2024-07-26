@@ -20,4 +20,4 @@
 
 ### Recursive file comparison (JSON).
 
-[![asciicast](https://asciinema.org/a/gxGxPELAPphek6SRz5TucbIgL.svg)](https://asciinema.org/a/gxGxPELAPphek6SRz5TucbIgL)
+[![asciicast](https://asciinema.org/a/DGzOYIfupaFOjroMgc31Pxphy.svg)](https://asciinema.org/a/DGzOYIfupaFOjroMgc31Pxphy)

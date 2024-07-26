@@ -9,6 +9,9 @@ run:
 	node bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
 	node bin/gendiff.js __fixtures__/file1.yml __fixtures__/file2.yaml
 
+gendiff-h:
+	node bin/gendiff.js -h
+
 gendiff-json:
 	node bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
 
