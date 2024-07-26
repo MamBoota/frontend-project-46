@@ -17,3 +17,7 @@
 ### Comparison of flat files (YAML).
 
 [![asciicast](https://asciinema.org/a/h2LbEbcfyxNChAYJOG5FduNkk.svg)](https://asciinema.org/a/h2LbEbcfyxNChAYJOG5FduNkk)
+
+### Recursive file comparison (JSON).
+
+[![asciicast](https://asciinema.org/a/gxGxPELAPphek6SRz5TucbIgL.svg)](https://asciinema.org/a/gxGxPELAPphek6SRz5TucbIgL)
