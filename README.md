@@ -8,6 +8,32 @@
 
 [![Test Coverage](https://api.codeclimate.com/v1/badges/6e34909e009c5750eb46/test_coverage)](https://codeclimate.com/github/MamBoota/frontend-project-46/test_coverage)
 
+### Installation
+
+1. Clone repository
+
+```
+git clone git@github.com:MamBoota/frontend-project-46.git
+```
+
+2. Go to project directory
+
+```
+cd frontend-project-46/
+```
+
+3. Install from make file
+
+```
+make install
+```
+
+4. For a global installation of a package from a local directory, use the NPM Link command
+
+```
+make link
+```
+
 ### Demonstration.
 
 ### Comparison of flat files (JSON).
