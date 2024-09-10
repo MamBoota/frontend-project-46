@@ -47,3 +47,7 @@ make link
 ### Recursive file comparison (JSON).
 
 [![asciicast](https://asciinema.org/a/DGzOYIfupaFOjroMgc31Pxphy.svg)](https://asciinema.org/a/DGzOYIfupaFOjroMgc31Pxphy)
+
+### Plain format (JSON and YAML).
+
+[![asciicast](https://asciinema.org/a/675482.svg)](https://asciinema.org/a/675482)

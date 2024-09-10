@@ -45,9 +45,9 @@ const makeStylishDiff = (tree) => {
       case 'unchanged': {
         return `${currentIndent(depth)}  ${node.key}: ${stringify(node.value, depth + 1)}`;
       }
-      default: {
-        throw Error('Incorrect data');
-      }
+      // default: {
+      //   throw Error('Incorrect data');
+      // }
     }
   };
   return iter(tree, 1);
