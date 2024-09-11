@@ -1,8 +1,8 @@
-import fs from "fs";
-import path from "path";
-import parse from "./parse.js";
-import formatter from "./formatters/index.js";
-import getDifferenceTree from "./buildAST.js";
+import fs from 'fs';
+import path from 'path';
+import parse from './parse.js';
+import formatter from './formatters/index.js';
+import getDifferenceTree from './buildAST.js';
 
 const getExtensionName = (fileName) => path.extname(fileName).slice(1);
 const getData = (filePath) => parse(fs

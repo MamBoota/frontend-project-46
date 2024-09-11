@@ -1,5 +1,5 @@
 import makePlain from './plain.js';
-import makeStylish from './stylish.js'
+import makeStylish from './stylish.js';
 
 export default function formatter(tree, format) {
   switch (format) {

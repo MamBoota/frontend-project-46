@@ -1,8 +1,8 @@
-import genDiff from "../src/index.js";
-import path from "path";
-import expectedStylish from "../__fixtures__/expectedStylish_file.js"
-import expectedPlain from "../__fixtures__/expectedPlain_file.js"
-import expectedJSON from "../__fixtures__/expectedJSON_file.js"
+import genDiff from '../src/index.js';
+import path from 'path';
+import expectedStylish from '../__fixtures__/expectedStylish_file.js';
+import expectedPlain from '../__fixtures__/expectedPlain_file.js';
+import expectedJSON from '../__fixtures__/expectedJSON_file.js';
 
 const testFormatFileList = [
   'json',
