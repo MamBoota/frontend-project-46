@@ -18,7 +18,12 @@ const buildAST = (data1, data2) => {
     if (_.isEqual(data1[key], data2[key])) {
       return { type: 'unchanged', key, value: data1[key] };
     }
-    return { type: 'changed', key, oldValue: data1[key], newValue: data2[key] };
+    return {
+      type: 'changed',
+      key,
+      oldValue: data1[key],
+      newValue: data2[key],
+    };
   });
   return children;
 };
