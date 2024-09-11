@@ -9,9 +9,7 @@
     "link": "npx link"
   },
   "bin": {
-    "gendiff-h": "bin/gendiff.js",
-    "gendiff-json": "bin/gendiff.js",
-    "gendiff-yml": "bin/gendiff.js"
+    "gendiff": "bin/gendiff.js"
   },
   "repository": {
     "type": "git",

@@ -2,6 +2,7 @@ import genDiff from "../src/index.js";
 import path from "path";
 import expectedStylish from "../__fixtures__/expectedStylish_file.js"
 import expectedPlain from "../__fixtures__/expectedPlain_file.js"
+import expectedJSON from "../__fixtures__/expectedJSON_file.js"
 
 const testFormatFileList = [
   'json',
@@ -22,5 +23,6 @@ describe('gendiff', () => {
       genDiff(filepath1, filepath2, 'stylish1');
     }).toThrow(new Error('Incorrect formatter'));
     expect(genDiff(filepath1, filepath2, 'plain')).toEqual(expectedPlain);
+    expect(genDiff(filepath1, filepath2, 'json')).toEqual(expectedJSON);
   });
 });

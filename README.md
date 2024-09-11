@@ -34,6 +34,49 @@ make install
 make link
 ```
 
+### Using
+
+gendiff <filepath1> <filepath2> [options]
+
+For example:
+
+```
+node bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json
+```
+
+```
+node bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json -f plain
+```
+
+```
+node bin/gendiff.js __fixtures__/file1.json __fixtures__/file2.json -f json
+```
+
+Or through the Make operator:
+
+```
+make gendiff-json
+```
+
+```
+make gendiff-json-plain
+```
+
+```
+make gendiff-json-json
+```
+
+It's the same with files YAML.
+
+An example of such a conclusion can be seen in one of the presented demonstrations:
+
+Options:
+-V, --version output the version number
+-f, --format [type] output format (default: "stylish")
+-h, --help output usage information
+
+The program is able to display differences in three formats, by default this is the "stylish" format. It can also be "plain" and "json". To output the result according to a specific format, enter -f [format].
+
 ### Demonstration.
 
 ### Comparison of flat files (JSON).
@@ -51,3 +94,7 @@ make link
 ### Plain format (JSON and YAML).
 
 [![asciicast](https://asciinema.org/a/675482.svg)](https://asciinema.org/a/675482)
+
+### Output in json.
+
+[![asciicast](https://asciinema.org/a/675648.svg)](https://asciinema.org/a/675648)
